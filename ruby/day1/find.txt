@@ -1,0 +1,6 @@
+- Ruby API: http://ruby-doc.org/core-2.3.0/
+- Programming Ruby - the Pragmatic Programmer's Guide: http://ruby-doc.com/docs/ProgrammingRuby/
+- Method substitutes part of string: gsub
+        - http://www.techotopia.com/index.php/Ruby_String_Replacement,_Substitution_and_Insertion
+- Ruby regex: 
+
