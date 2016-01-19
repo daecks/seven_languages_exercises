@@ -1,0 +1,42 @@
+1) 
+With: 2.times {puts File.read(file_name)}
+Without?
+
+
+2) Translate hash to array
+Looks like converts to multidimensional array.
+irb(main):001:0> h = { "a" => 1, "b" => 2, "c" => 3 }
+=> {"a"=>1, "b"=>2, "c"=>3}
+irb(main):002:0> h.to_a
+=> [["a", 1], ["b", 2], ["c", 3]]
+
+Translate array to hash
+Ruby 2.1.0 has Array#to_h
+Mental note: look into installing RVM to get latest version of Ruby (~2.x.y
+right now) http://tecadmin.net/install-ruby-on-rails-on-ubuntu/#
+
+how to do it with the version of Ruby that we have installed:
+
+irb(main):014:0> a = [['a', 1], ['b', 2], ['c', 3]]
+=> [["a", 1], ["b", 2], ["c", 3]]
+irb(main):015:0> h = Hash[*a.flatten]
+=> {"a"=>1, "b"=>2, "c"=>3}
+
+
+3) Iterate over a hash
+irb(main):020:0> h.each do |key, value|
+irb(main):021:1* puts key
+irb(main):022:1> puts value
+irb(main):023:1> end
+a
+1
+b
+2
+c
+3
+=> {"a"=>1, "b"=>2, "c"=>3}
+
+
+4)
+Stacks, queues, linked list
+http://www.sitepoint.com/rubys-missing-data-structure/
