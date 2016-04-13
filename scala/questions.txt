@@ -1,0 +1,3 @@
+Performance comparison of Java vs Scala: http://shipilev.net/blog/2014/java-scala-divided-we-fail/
+Syntactic differences: http://kukuruku.co/hub/scala/java-8-vs-scala-the-difference-in-approaches-and-mutual-innovations
+Difference between 'val' and 'var': http://stackoverflow.com/questions/1791408/what-is-the-difference-between-a-var-and-val-definition-in-scala
