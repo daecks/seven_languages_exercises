@@ -1,0 +1,5 @@
+OTP service that restarts a process if it dies:
+http://learnyousomeerlang.com/supervisors
+
+Documentation for building a simple OTP server:
+http://learnyousomeerlang.com/what-is-otp
